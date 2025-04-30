@@ -114,3 +114,24 @@ Once inventory is updated, go to `/recipe` to generate a personalized recipe bas
 ## 🧪 Credits
 
 Built with ❤️ for a fridge that's smarter than your roommate. Made for CS614 ✨
+
+## 💠 Credit
+
+This project was originally developed as part of a team collaboration.  
+> Special thanks to [@gohweihan1](https://github.com/gohweihan1) for the initial architecture and implementation.
+
+---
+## 👩‍💻 My Contributions
+
+- Designed and implemented the **Retrieval-Augmented Generation (RAG) pipeline**, including:
+  - Semantic embedding with SentenceTransformers
+  - Vector indexing and top-k retrieval using FAISS
+  - Custom scoring logic based on ingredient overlap, user preference alignment, and semantic similarity
+- Engineered a **prompt construction system** using structured templates and prompt techniques:
+  - Instructional framing, hard constraints, format specifications, and reference context injection
+- Built **data preprocessing pipelines** for large-scale recipe datasets:
+  - Cleaning, semantic formatting, and reduction from ~495k to 50k entries for efficiency and accuracy
+- Integrated **user preference filters** (meal type, dietary needs, cuisine type) into the generation flow
+- Collaborated on **backend integration and system-level testing** for seamless end-to-end functionality
+
+---
